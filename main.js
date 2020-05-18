@@ -6,10 +6,11 @@
 
   console.log('%cKATA 1 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-  let counter = 1
-  while (counter <= 20) {
-    console.log(counter)
-    counter += 1
+  let counter1 = 1
+  const limit = 20
+  while (counter1 <= limit) {
+    console.log(counter1)
+    counter1 += 1
   }
 
 /** KATA 02 ⮕
@@ -20,8 +21,20 @@
 
   console.log('%cKATA 02 RESULTS:', 'background: darkblue; color: white; font-weight: bold;') // These console.logs are just to help make the console log better organized and more readable
 
+  let counter2a = 1
+  while (counter2a <= 20) {                    // IS LOOPING 20 times
+    const counterIsEven = (counter2a % 2 === 0)
+    if (counterIsEven) {
+      console.log(counter2a)
+    }
+    counter2a += 1
+  }
 
-  /* Write your KATA 02 code in place of THIS comment. */
+  let counter2b = 2                          // IS LOOPING 10 times
+  while (counter2b <= 20) {
+    console.log(counter2b)
+    counter2b += 2
+  }
 
 
 /** KATA 03 ⮕
@@ -33,7 +46,11 @@
   console.log('%cKATA 03 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
  
 
-  /* Write your KATA 03 code in place of THIS comment. */
+  let counter3 = 1
+  while (counter3 <= 20) {
+    console.log(counter3)
+    counter3 += 2
+  }
 
 
 /** KATA 04 ⮕
@@ -45,7 +62,11 @@
   console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
 
-  /* Write your KATA 04 code in place of THIS comment. */
+  let counter4 = 5
+  while (counter4 <= 100) {
+    console.log(counter4)
+    counter4 += 5
+  }
 
 
 /** KATA 05 ⮕
@@ -57,7 +78,14 @@
   console.log('%cKATA 05 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
 
-  /* Write your KATA 05 code in place of THIS comment. */
+  let counter5 = 1
+  while (counter5 <= 100) {
+    const isSquare = Number.isInteger(Math.sqrt(counter5));
+    if (isSquare) {
+      console.log(counter5)
+    }
+    counter5 += 1
+  }
 
 
 /** KATA 06 ⮕
@@ -68,8 +96,12 @@
 
   console.log('%cKATA 06 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
+  let counter6 = 20
+  while (counter6 >= 1) {
+    console.log(counter6)
+    counter6 -= 1
+  }
 
-  /* Write your KATA 06 code in place of THIS comment. */
 
 
 /** KATA 07 ⮕
